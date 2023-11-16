@@ -13,7 +13,7 @@ module.exports = {
     ],
   },
   setupFilesAfterEnv: ["<rootDir>/e2e/setup.ts"],
-  testTimeout: 120000,
+  testTimeout: 120001,
   testMatch: ["<rootDir>/e2e/**/*.spec.ts"],
   reporters: ["detox/runners/jest/reporter"],
   globalSetup: "detox/runners/jest/globalSetup",
